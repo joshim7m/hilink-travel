@@ -31,11 +31,11 @@ export default {
         },
       },
       backgroundImage: {
-        "bg-img-1": "url('./img-1.png')",
-        "bg-img-2": "url('./img-2.png')",
-        "feature-bg": "url('./feature-bg.png')",
-        pattern: "url('./pattern.png')",
-        "pattern-2": "url('./pattern-bg.png')",
+        "bg-img-1": "var(--bg-img-1)",
+        "bg-img-2": "var(--bg-img-2)",
+        "feature-bg": "var(--feature-bg)",
+        "pattern": "var(--pattern)",
+        "pattern-2": "var(--pattern-bg)",
       },
       screens: {
         xs: "400px",

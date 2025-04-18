@@ -31,11 +31,11 @@ export default {
         },
       },
       backgroundImage: {
-        "bg-img-1": "var(--bg-img-1)",
-        "bg-img-2": "var(--bg-img-2)",
-        "feature-bg": "var(--feature-bg)",
-        "pattern": "var(--pattern)",
-        "pattern-2": "var(--pattern-bg)",
+        "bg-img-1": "url('https://raw.githubusercontent.com/joshim7m/hilink-travel/refs/heads/main/public/img-1.png')",
+        "bg-img-2": "url('https://raw.githubusercontent.com/joshim7m/hilink-travel/refs/heads/main/public/img-2.png')",
+        "feature-bg": "url('https://raw.githubusercontent.com/joshim7m/hilink-travel/refs/heads/main/public/feature-bg.png')",
+        "pattern": "url('https://raw.githubusercontent.com/joshim7m/hilink-travel/refs/heads/main/public/pattern-bg.png')",
+        "pattern-2": "url('https://raw.githubusercontent.com/joshim7m/hilink-travel/refs/heads/main/public/pattern.png')",
       },
       screens: {
         xs: "400px",

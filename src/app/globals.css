@@ -14,14 +14,6 @@ body {
   font-family: Inter;
 }
 
-:root {
-  --bg-img-1: url('/img-1.png');
-  --bg-img-2: url('/img-2.png');
-  --feature-bg: url('/feature-bg.png');
-  --pattern: url('/pattern.png');
-  --pattern-2: url('/pattern-bg.png');
-}
-
 @layer utilities {
   .btn_white {
     @apply border-white bg-white px-8 py-3 text-green-50
@@ -138,7 +130,7 @@ body {
 
   /* Hero */
   .hero-map {
-    @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+    @apply absolute right-0 top-0 h-screen w-screen bg-pattern bg-cover bg-center md:-right-28 xl:-top-60;
   }
 
   /* Camp */
